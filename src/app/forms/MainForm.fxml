@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="240" prefWidth="776" styleClass="">
+  <children>
+    <LabelEx alignment="CENTER_LEFT" autoSize="true" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="8" layoutY="16" prefHeight="19.951171875" prefWidth="51.27685546875" styleClass="label " text="Время:" textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="System Bold" size="15"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="true" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelAlt" layoutX="72" layoutY="16" prefHeight="19.951171875" prefWidth="59.8974609375" styleClass="label " text="10.10.10" textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="System Bold" size="15"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-labelAlt" visible="1"/>
+    <FlatButton alignment="CENTER" color="#3970b8" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#366aaf" id="button" layoutX="8" layoutY="48" prefHeight="32" prefWidth="120" styleClass="x-flat-button " text="1 мин" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="System Bold" size="15"/>
+      </font>
+    </FlatButton>
+    <Data cursor="DEFAULT" enabled="1" id="data-button" visible="1"/>
+    <FlatButton alignment="CENTER" color="#3970b8" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#366aaf" id="buttonAlt" layoutX="136" layoutY="48" prefHeight="32" prefWidth="120" styleClass="x-flat-button " text="5 мин" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="System Bold" size="15"/>
+      </font>
+    </FlatButton>
+    <Data cursor="DEFAULT" enabled="1" id="data-buttonAlt" visible="1"/>
+    <FlatButton alignment="CENTER" color="#3970b8" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#366aaf" id="button3" layoutX="264" layoutY="48" prefHeight="32" prefWidth="120" styleClass="x-flat-button " text="10 мин" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="System Bold" size="15"/>
+      </font>
+    </FlatButton>
+    <Data cursor="DEFAULT" enabled="1" id="data-button3" visible="1"/>
+    <FlatButton alignment="CENTER" color="#3970b8" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#366aaf" id="button4" layoutX="392" layoutY="48" prefHeight="32" prefWidth="120" styleClass="x-flat-button " text="15 мин" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="System Bold" size="15"/>
+      </font>
+    </FlatButton>
+    <Data cursor="DEFAULT" enabled="1" id="data-button4" visible="1"/>
+    <FlatButton alignment="CENTER" color="#3970b8" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#366aaf" id="button5" layoutX="520" layoutY="48" prefHeight="32" prefWidth="120" styleClass="x-flat-button " text="30 мин" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="System Bold" size="15"/>
+      </font>
+    </FlatButton>
+    <Data cursor="DEFAULT" enabled="1" id="data-button5" visible="1"/>
+    <FlatButton alignment="CENTER" color="#3970b8" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#366aaf" id="button6" layoutX="648" layoutY="48" prefHeight="32" prefWidth="120" styleClass="x-flat-button " text="1 час" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="System Bold" size="15"/>
+      </font>
+    </FlatButton>
+    <Data cursor="DEFAULT" enabled="1" id="data-button6" visible="1"/>
+    <TextField alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="hours" layoutX="8" layoutY="88" prefColumnCount="12" prefHeight="32" prefWidth="144" promptText="Часы" styleClass="text-input text-field " text="">
+      <font>
+        <Font name="System Bold" size="15"/>
+      </font>
+    </TextField>
+    <Data cursor="DEFAULT" enabled="1" id="data-hours" visible="1"/>
+    <TextField alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="minute" layoutX="8" layoutY="128" prefColumnCount="12" prefHeight="32" prefWidth="144" promptText="Минуты" styleClass="text-input text-field " text="">
+      <font>
+        <Font name="System Bold" size="15"/>
+      </font>
+    </TextField>
+    <Data cursor="DEFAULT" enabled="1" id="data-minute" visible="1"/>
+    <TextField alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="second" layoutX="8" layoutY="168" prefColumnCount="12" prefHeight="32" prefWidth="144" promptText="Секунды" styleClass="text-input text-field " text="">
+      <font>
+        <Font name="System Bold" size="15"/>
+      </font>
+    </TextField>
+    <Data cursor="DEFAULT" enabled="1" id="data-second" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="true" autoSizeType="HORIZONTAL" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label3" layoutX="160" layoutY="88" prefHeight="32" prefWidth="16.669921875" styleClass="label " text="-&gt;" textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="System Bold" size="15"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label3" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="true" autoSizeType="HORIZONTAL" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label4" layoutX="160" layoutY="128" prefHeight="32" prefWidth="16.669921875" styleClass="label " text="-&gt;" textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="System Bold" size="15"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label4" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="true" autoSizeType="HORIZONTAL" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label5" layoutX="160" layoutY="168" prefHeight="32" prefWidth="16.669921875" styleClass="label " text="-&gt;" textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="System Bold" size="15"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label5" visible="1"/>
+    <TextField alignment="CENTER_LEFT" editable="false" focusTraversable="true" id="msh" layoutX="192" layoutY="88" prefColumnCount="12" prefHeight="32" prefWidth="144" promptText="" styleClass="text-input text-field " text="">
+      <font>
+        <Font name="System Bold" size="15"/>
+      </font>
+    </TextField>
+    <Data cursor="DEFAULT" enabled="1" id="data-msh" visible="1"/>
+    <TextField alignment="CENTER_LEFT" editable="false" focusTraversable="true" id="msm" layoutX="192" layoutY="128" prefColumnCount="12" prefHeight="32" prefWidth="144" promptText="" styleClass="text-input text-field " text="">
+      <font>
+        <Font name="System Bold" size="15"/>
+      </font>
+    </TextField>
+    <Data cursor="DEFAULT" enabled="1" id="data-msm" visible="1"/>
+    <TextField alignment="CENTER_LEFT" editable="false" focusTraversable="true" id="mss" layoutX="192" layoutY="168" prefColumnCount="12" prefHeight="32" prefWidth="144" promptText="" styleClass="text-input text-field " text="">
+      <font>
+        <Font name="System Bold" size="15"/>
+      </font>
+    </TextField>
+    <Data cursor="DEFAULT" enabled="1" id="data-mss" visible="1"/>
+    <TextField alignment="CENTER_LEFT" editable="false" focusTraversable="true" id="ms" layoutX="376" layoutY="128" prefColumnCount="12" prefHeight="32" prefWidth="144" promptText="" styleClass="text-input text-field " text="">
+      <font>
+        <Font name="System Bold" size="15"/>
+      </font>
+    </TextField>
+    <Data cursor="DEFAULT" enabled="1" id="data-ms" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="true" autoSizeType="HORIZONTAL" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label6" layoutX="344" layoutY="128" prefHeight="32" prefWidth="16.669921875" styleClass="label " text="-&gt;" textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="System Bold" size="15"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label6" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="true" autoSizeType="HORIZONTAL" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label7" layoutX="344" layoutY="88" prefHeight="32" prefWidth="16.669921875" rotate="45" styleClass="label " text="-&gt;" textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="System Bold" size="15"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label7" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="true" autoSizeType="HORIZONTAL" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label8" layoutX="344" layoutY="168" prefHeight="32" prefWidth="16.669921875" rotate="320" styleClass="label " text="-&gt;" textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="System Bold" size="15"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label8" visible="1"/>
+    <FlatButton alignment="CENTER" color="#3970b8" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#366aaf" id="button7" layoutX="528" layoutY="88" prefHeight="112" prefWidth="240" styleClass="x-flat-button " text="Запланировать" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="System Bold" size="30"/>
+      </font>
+    </FlatButton>
+    <Data cursor="DEFAULT" enabled="1" id="data-button7" visible="1"/>
+    <TextField alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="title_notify" layoutX="144" layoutY="8" prefColumnCount="12" prefHeight="32" prefWidth="304" promptText="Заголовок уведомления" styleClass="text-input text-field " text="">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </TextField>
+    <Data cursor="DEFAULT" enabled="1" id="data-title_notify" visible="1"/>
+    <TextField alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="text_notify" layoutX="464" layoutY="8" prefColumnCount="12" prefHeight="32" prefWidth="304" promptText="Текст уведомления" styleClass="text-input text-field " text="">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </TextField>
+    <Data cursor="DEFAULT" enabled="1" id="data-text_notify" visible="1"/>
+    <CheckBox alignment="CENTER_LEFT" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="checkbox" layoutX="8" layoutY="208" prefHeight="24" prefWidth="200" styleClass="check-box " text="Звуковое уведомление" textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="System Bold" size="15"/>
+      </font>
+    </CheckBox>
+    <Data cursor="DEFAULT" enabled="1" id="data-checkbox" visible="1"/>
+    <FlatButton alignment="CENTER" color="#3970b8" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#366aaf" id="button8" layoutX="528" layoutY="200" prefHeight="32" prefWidth="240" styleClass="x-flat-button " text="Выключить музыку" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="System Bold" size="15"/>
+      </font>
+    </FlatButton>
+    <Data cursor="DEFAULT" enabled="1" id="data-button8" visible=""/>
+  </children>
+</AnchorPane>

@@ -1,0 +1,26 @@
+{
+  "props": [],
+  "components": {
+    "player": {
+      "type": "script\\MediaPlayerScript",
+      "x": 96,
+      "y": 16,
+      "props": {
+        "autoplay": "1",
+        "volume": "1.0",
+        "balance": "0.0",
+        "rate": "1.0"
+      }
+    },
+    "timer": {
+      "type": "script\\TimerScript",
+      "x": 16,
+      "y": 16,
+      "props": {
+        "interval": 1,
+        "repeatable": "1",
+        "autoStart": "1"
+      }
+    }
+  }
+}

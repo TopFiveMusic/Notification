@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<behaviours>
+  <target id="labelAlt">
+    <behaviour format="HH:mm:ss" type="behaviour\custom\WatchMakerBehaviour"/>
+  </target>
+  <target id="hours">
+    <behaviour allowedSymbols="0123456789" matchCase="" maxLength="0" type="behaviour\custom\KeyInputRuleBehaviour"/>
+  </target>
+  <target id="minute">
+    <behaviour allowedSymbols="0123456789" matchCase="" maxLength="0" type="behaviour\custom\KeyInputRuleBehaviour"/>
+  </target>
+  <target id="second">
+    <behaviour allowedSymbols="0123456789" matchCase="" maxLength="0" type="behaviour\custom\KeyInputRuleBehaviour"/>
+  </target>
+  <target id="msh">
+    <behaviour allowedSymbols="0123456789" matchCase="" maxLength="0" type="behaviour\custom\KeyInputRuleBehaviour"/>
+  </target>
+  <target id="msm">
+    <behaviour allowedSymbols="0123456789" matchCase="" maxLength="0" type="behaviour\custom\KeyInputRuleBehaviour"/>
+  </target>
+  <target id="mss">
+    <behaviour allowedSymbols="0123456789" matchCase="" maxLength="0" type="behaviour\custom\KeyInputRuleBehaviour"/>
+  </target>
+  <target id="ms">
+    <behaviour allowedSymbols="0123456789" matchCase="" maxLength="0" type="behaviour\custom\KeyInputRuleBehaviour"/>
+  </target>
+</behaviours>
